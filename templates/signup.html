@@ -1,0 +1,23 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}
+Summer Project
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='submit.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+  <form class="form-signin" enctype="multipart/form-data" method="POST" action="/signup">
+    <h2 class="form-signin-heading">Choose an image</h2>
+    {{ form.hidden_tag() }}
+    {{ wtf.form_field(form.photo) }}
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Search</button>
+  </form>
+
+</div> <!-- /container -->
+{% endblock %}
