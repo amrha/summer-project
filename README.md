@@ -3,9 +3,9 @@ an image search by content platforme : user inputs a picture and the platfom ret
 
 if you want to open the platform :
 
-. downlowd the files
+. download the files
 
-. downlowd the images from the link in the file summer-poject/static/base/files.txt
+. download the images from the link in the file summer-poject/static/base/files.txt
 
 . put the 20121 images in folder summer-poject/static/base
 
@@ -19,7 +19,7 @@ if you want to add more images to the base :
 
 . run fill.py to add the data from the images to register.txt
 
-. you can use the platform and it will recognize the image you added and can give them as resultes
+. you can use the platform and it will recognize the image you added and can give them as results
 
 to see a demo of the platform :
 
