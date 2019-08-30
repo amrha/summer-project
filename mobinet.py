@@ -1,5 +1,4 @@
 import object
-#import fill
 def diff(l1,l2):
 	s=0
 	if l1[0]==l2[0]:
@@ -57,7 +56,6 @@ def main(path):
 	d={}
 	for i in range(1,342):
 		d[i]=[]
-	#fill.register()
 	predictions=object.itl(path)
 	with open('register.txt') as myfile:
 		file_content = myfile.readlines()
@@ -66,8 +64,8 @@ def main(path):
 		l.append(i.split())
 	for i in l:
 		n=diff(predictions,i[1:])
-		if n!=0:
-			d[n].append(i[0])	
+		if n>=171:
+			d[n].append(i[0])
 	result=[]
 	probs=[]
 	i=341
