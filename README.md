@@ -1,5 +1,5 @@
 # summer-project
-an image search by content platforme : user inputs a picture and the platfom return images similare to it form a data base
+an image search by content platforme : user inputs a picture and the platform return images similar to it form a data base
 
 if you want to open the platform :
 
@@ -23,4 +23,4 @@ if you want to add more images to the base :
 
 to see a demo of the platform :
 
-. https://drive.google.com/file/d/1Jw8vFwMd63zy5ICoV9G2aGxZuAWq3urB/view?usp=sharing
+. https://youtu.be/UxMItqnIyOY
